@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin Mundy Cybersecurity Resume</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Austin Mundy</h1>
+        <p>Dedicated cybersecurity professional specializing in threat hunting, attack surface management, and cyber threat intelligence (CTI). Proven success in identifying vulnerabilities, mitigating risks, and enhancing organizational security. Adept at utilizing advanced tools and collaborating with government and enterprise stakeholders to neutralize sophisticated threats.</p>
+        
+        <div class="contact">
+            <p><strong>Location:</strong> Huntsville, United States</p>
+            <p><strong>Phone:</strong> (615) 815-8269</p>
+            <p><strong>Email:</strong> <a href="mailto:austinmundy90@gmail.com">austinmundy90@gmail.com</a></p>
+            <p><strong>Website:</strong> <a href="https://austin-mundy-blog.super.site">austin-mundy-blog.super.site</a></p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Experience</h2>
+            <div>
+                <h3>Leidos, Huntsville, AL &mdash; Network Threat Discovery Analyst</h3>
+                <p><strong>October 2023 - Present</strong></p>
+                <ul>
+                    <li>Conduct advanced threat hunting within Splunk logs, leveraging threat intelligence, partner reports, and SOC investigation findings.</li>
+                    <li>Utilize open-source attack surface management tools to identify vulnerabilities and monitor external exposure.</li>
+                    <li>Delivered over 30 comprehensive reports highlighting key misconfigurations and systemic weaknesses.</li>
+                    <li>Served as primary liaison between the FBI's NDCA and NASA for intelligence-sharing initiatives.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>GDIT, Huntsville, AL &mdash; Cybersecurity Analyst Associate</h3>
+                <p><strong>June 2022 - October 2023</strong></p>
+                <ul>
+                    <li>Investigated and reported security alerts for internal and K-12 public school networks.</li>
+                    <li>Created SIEM and firewall rules for incident response and threat intelligence.</li>
+                    <li>Performed weekly vulnerability assessments and managed SCCM security meetings.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>DTC Communications, Smithville, TN &mdash; Network Technician</h3>
+                <p><strong>December 2021 - July 2022</strong></p>
+                <ul>
+                    <li>Installed, maintained, and monitored network equipment and power systems.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Old Hickory Buildings, Murfreesboro, TN &mdash; Information Technology Support Specialist</h3>
+                <p><strong>September 2021 - December 2021</strong></p>
+                <ul>
+                    <li>Troubleshot internal Windows systems and AWS servers.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Wiser Imagery, Murfreesboro, TN &mdash; Geospatial Analyst</h3>
+                <p><strong>April 2021 - December 2021</strong></p>
+                <ul>
+                    <li>Analyzed geographic data to build digital maps.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills">
+                <span>Threat Intelligence</span>
+                <span>Yara</span>
+                <span>MITRE ATT&amp;CK</span>
+                <span>Threat Hunting</span>
+                <span>OSINT Research</span>
+                <span>Basic Malware Analysis</span>
+                <span>Python</span>
+                <span>Linux</span>
+                <span>Sigma</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications">
+                <span>arcX: Advanced Cyber Threat Intelligence Analyst</span>
+                <span>arcX: Cyber Threat Intelligence Practitioner</span>
+                <span>CCNA: Cisco Certified Network Associate</span>
+                <span>AZ 500: Microsoft Security Engineer Associate</span>
+                <span>AZ 104: Microsoft Azure Administrator Associate</span>
+                <span>CCSK: Cloud Certificate of Security Knowledge</span>
+                <span>CompTIA CySA+</span>
+                <span>CompTIA Security+</span>
+                <span>CompTIA Network+</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <p><strong>Post Graduate Certification in Cybersecurity:</strong> University of Essex Online, United Kingdom | June 2021 - September 2022</p>
+            <p><strong>Bachelor of Science in Geosciences:</strong> Tennessee Technological University, Cookeville, TN | January 2015 - May 2020</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Projects</h2>
+            <p><strong>Elastic Detection Engineering Lab:</strong> Built a custom lab using Docker to deploy Elastic Stack components. Configured Fleet to ingest logs into Elasticsearch and created detections for simulated attacks, enhancing threat detection capabilities.</p>
+        </div>
+    </div>
+    <p>This page has been viewed <a id="counter">0</a> times.</p>
+    <script>
+        document.getElementById('counter').textContent = localStorage.getItem('pageViews') || 0;
+        localStorage.setItem('pageViews', parseInt(localStorage.getItem('pageViews') || 0) + 1);
+    </script>
+
+    <!-- External JavaScript file -->
+    <script src="main.js" defer></script>
+</body>
+</html>
