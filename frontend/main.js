@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", (event) =>{
     getVisitCount();
 })
 
-const functionApi = ''; // Placeholder for the actual API URL
+const functionApi = 'http://localhost:7071/api/GetResumeCounter'; // Placeholder for the actual API URL
 
 const getVisitCount = () => {
     fetch(functionApi)
