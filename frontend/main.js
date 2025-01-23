@@ -2,7 +2,8 @@ window.addEventListener("DOMContentLoaded", (event) =>{
     getVisitCount();
 })
 
-const functionApi = 'http://localhost:7071/api/GetResumeCounter'; // Placeholder for the actual API URL
+const functionApi = 'https://getresumecounter-ekbxcyhhd9erhqdm.eastus-01.azurewebsites.net/api/GetResumeCounter1?code=j8laPYSO3pCjbizz9d1nXDxMWHgb3ghGLg2fVxJy702pAzFuV2jQSA%3D%3D'
+const localfunctionApi = 'http://localhost:7071/api/GetResumeCounter'; // Placeholder for the actual API URL
 
 const getVisitCount = () => {
     fetch(functionApi)
